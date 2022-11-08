@@ -10,7 +10,8 @@ public class App {
         int opcion; //Guardaremos la opcion del usuario
  
         while (!salir) {
- 
+            
+            System.out.println("MENU:");
             System.out.println("1. Añadir un termino al diccionario");
             System.out.println("2. Eliminar un termino del diccionario");
             System.out.println("3. Número de terminos");
@@ -25,6 +26,7 @@ public class App {
                 switch (opcion) {
                     case 1:
                         System.out.println("Has seleccionado añadir un termino al diccionario");
+                        
        
                         break;
                     case 2:
@@ -51,4 +53,4 @@ public class App {
             }
         }
     }
-  
+}
