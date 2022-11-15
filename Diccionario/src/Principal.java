@@ -76,6 +76,8 @@ public class Principal {
             String mensaje= "Deseas introducir la definicion\n" + termino+": "+definicion;
             if (leerConfirmacion(mensaje))
             definiciones.add(new Definicion(termino, definicion));
+            //Posterior ordena las definiciones
+            Collections.sort(definiciones);            
         }
         return definiciones;
     }
